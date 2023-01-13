@@ -16,6 +16,20 @@ export default function Select({ head, setHead, middle, setMiddle, bottom, setBo
         <option value="horse">Horse</option>
         <option value="bird">Bird</option>
       </select>
+      <h1>Pick a top</h1>
+      <select value={middle} onChange={handleChange}>
+        <option value="blue">Blue Shirt</option>
+        <option value="dress">Dress</option>
+        <option value="pink">Pink Shirt</option>
+        <option value="red">Red Shirt</option>
+      </select>
+      <h1>Pick a bottom</h1>
+      <select value={bottom} onChange={handleChange}>
+        <option value="jeans">Jeans</option>
+        <option value="pants">Dress Pants</option>
+        <option value="leg">Large Leg</option>
+        <option value="bellBottoms">White Bell Bottoms</option>
+      </select>
     </div>
   );
 }
